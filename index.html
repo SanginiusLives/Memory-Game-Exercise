@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="startArea">
+      <div>
+      <h1>Memory Game!</h1>
+    <button id="start">Start Game!</button>
+    <h3>Your Previous Score: <span id="prevScore">0</span></h3>
+  </div>
+  </div>
+
+
+    
+    <h3 id="currentScore">Your Score: <span id="score">0</span></h3>
+    <div id="game">
+      <div class="card" data-src="https://www.lpl.com/content/dam/lpl-www/images/newsroom/read/insider/insider-blog-meme-stocks-what-do-they-mean_article-hero-450x450.png">
+        
+        <img class="back" src="https://www.lpl.com/content/dam/lpl-www/images/newsroom/read/insider/insider-blog-meme-stocks-what-do-they-mean_article-hero-450x450.png">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://www.lpl.com/content/dam/lpl-www/images/newsroom/read/insider/insider-blog-meme-stocks-what-do-they-mean_article-hero-450x450.png">
+        
+        <img class="back" src="https://www.lpl.com/content/dam/lpl-www/images/newsroom/read/insider/insider-blog-meme-stocks-what-do-they-mean_article-hero-450x450.png">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg">
+        
+        <img class="back" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg">
+        
+        <img class="back" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://cdn.vox-cdn.com/thumbor/o53k-QbKFns_s-OP89E8o34Ho8U=/0x0:599x500/1200x800/filters:focal(286x259:380x353)/cdn.vox-cdn.com/uploads/chorus_image/image/69634799/download__5_.0.jpg">
+        
+        <img class="back" src="https://cdn.vox-cdn.com/thumbor/o53k-QbKFns_s-OP89E8o34Ho8U=/0x0:599x500/1200x800/filters:focal(286x259:380x353)/cdn.vox-cdn.com/uploads/chorus_image/image/69634799/download__5_.0.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://cdn.vox-cdn.com/thumbor/o53k-QbKFns_s-OP89E8o34Ho8U=/0x0:599x500/1200x800/filters:focal(286x259:380x353)/cdn.vox-cdn.com/uploads/chorus_image/image/69634799/download__5_.0.jpg">
+        
+        <img class="back" src="https://cdn.vox-cdn.com/thumbor/o53k-QbKFns_s-OP89E8o34Ho8U=/0x0:599x500/1200x800/filters:focal(286x259:380x353)/cdn.vox-cdn.com/uploads/chorus_image/image/69634799/download__5_.0.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://static-prod.adweek.com/wp-content/uploads/2018/07/confused-guy-meme-content-2018-652x367.jpg">
+        
+        <img class="back" src="https://static-prod.adweek.com/wp-content/uploads/2018/07/confused-guy-meme-content-2018-652x367.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://static-prod.adweek.com/wp-content/uploads/2018/07/confused-guy-meme-content-2018-652x367.jpg">
+        
+        <img class="back" src="https://static-prod.adweek.com/wp-content/uploads/2018/07/confused-guy-meme-content-2018-652x367.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://helios-i.mashable.com/imagery/articles/02bBNcEytrPlxf6CUAqZfYY/hero-image.fill.size_1248x702.v1623370042.png">
+        
+        <img class="back" src="https://helios-i.mashable.com/imagery/articles/02bBNcEytrPlxf6CUAqZfYY/hero-image.fill.size_1248x702.v1623370042.png">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+      <div class="card" data-src="https://helios-i.mashable.com/imagery/articles/02bBNcEytrPlxf6CUAqZfYY/hero-image.fill.size_1248x702.v1623370042.png">
+        
+        <img class="back" src="https://helios-i.mashable.com/imagery/articles/02bBNcEytrPlxf6CUAqZfYY/hero-image.fill.size_1248x702.v1623370042.png">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+
+      <div class="card" data-src="https://media.timeout.com/images/105685537/image.jpg">
+        
+        <img class="back" src="https://media.timeout.com/images/105685537/image.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+
+      <div class="card" data-src="https://media.timeout.com/images/105685537/image.jpg">
+        
+        <img class="back" src="https://media.timeout.com/images/105685537/image.jpg">
+        <img class="front" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg">
+      </div>
+
+     
+
+    </div>
+
+    <div id="end">
+      <div id="endCont">
+      <h2>Game Over!</h2>
+      <h3>Your Final Score: <span id="endScore">0</span></h3>
+      <button id="again">Play Again?</button>
+    </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
